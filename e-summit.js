@@ -47,3 +47,28 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.getElementById("eventGallery").appendChild(eventGallery);
 });
+
+
+document.getElementById("menu-icon").addEventListener("click", function () {
+    this.classList.toggle("active");
+});
+function menuAnimation() {
+
+    var menu = document.getElementById("menu")
+    var full = document.querySelector("#full-scr")
+    var nav = document.getElementById("navbar")
+    var flag = 0
+    menu.addEventListener("click", function () {
+        if (flag == 0) {
+            full.style.top = 0
+            nav.style.background ="transparent";
+            flag = 1
+        } else {
+            full.style.top = "-200%"
+            nav.style.background ="#622f91";
+            flag = 0
+        }
+    })
+}
+
+menuAnimation();
