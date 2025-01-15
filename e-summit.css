@@ -11,14 +11,14 @@ body, html {
 }
 
 
-/body {/
+/*body {/
 /*        font-family: Arial, sans-serif;*/
 /*        background: url("images/bkg.svg") no-repeat center center fixed;*/
 /*        background-size: cover;*/
 /*        display: flex;*/
 /*        justify-content: center;*/
 /*        align-items: center;*/
-/}/
+
 
 
 
@@ -270,7 +270,7 @@ nav:hover ~ .bulb {
 
 
 
-/Home/
+/*Home*/
 
 .home {
     background-image: url("images/bkgd.jpg");
@@ -374,7 +374,7 @@ nav:hover ~ .bulb {
 
 
 
-/Long Background/
+/*Long Background*/
 .long_bkg{
     background: url("images/long_bkg.jpg");
 }
@@ -391,7 +391,7 @@ nav:hover ~ .bulb {
 
 
 
-/About Us/
+/*About Us*/
 
 
 
@@ -624,7 +624,7 @@ nav:hover ~ .bulb {
 
 
 
-/Competitions/
+/*Competitions*/
 
 
 
@@ -722,7 +722,7 @@ p {
 
 
 
-/OUR SPEAKERS/
+/*OUR SPEAKERS*/
 .speakers-container {
     text-align: center;
     width: 100%;
@@ -794,7 +794,7 @@ p {
 
 
 
-/SPONSORS/
+*/SPONSORS/
 
 .sponsor-container {
     border-radius: 50%;
@@ -819,9 +819,9 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    /flex-wrap: wrap;/
+    /*flex-wrap: wrap;/
         /gap: 10px;/
-        /margin-inline-start: 5%;/
+        /margin-inline-start: 5%;*/
 }
 
 .sponsor-card {
@@ -883,7 +883,7 @@ p {
 
 
 
-/Event Gallery/
+
 
 .event-gallery {
     display: flex;
